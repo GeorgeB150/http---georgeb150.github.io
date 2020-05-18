@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>George B. Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  </head>
+  <style>
+#open2:target{
+  pointer-events: all;
+  opacity: 1;
+}
+
+#open:target{
+  pointer-events: all;
+  opacity: 1;
+}
+
+.model{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  right: 30%;
+  opacity: 0;
+  pointer-events: none;
+  background-color: white;
+  padding:20px;
+  border-radius: 5px;
+}
+
+.activite{
+  padding: 15px;
+  padding-bottom: 30px;
+  margin: 3px;
+  border: 1px solid black;
+  background-color: white;
+
+}
+
+  </style>
+
+
+
+  <body style="background-color:darkgray;">
+
+    <ul class="nav nav-pill nav-justified bg-dark" style="padding:15px;">
+      <li class="nav-item" data-toggle="collapse" data-target="#about"><a href="#">About</a></li>
+      <li class="nav-item"><a href="#">Activites</a></li>
+      <li class="nav-item"><a href="#">Project</a></li>
+    </ul>
+    <div class="collapse container-fluid bg-success font-italice" id="about" style="font-size:25px; ">
+    <p>This website is my personal profile portolio on my work that I have done in my class.
+    Such as project and activites as well as detialed reports on all of them.</p>
+    </div>
+
+    <div class="bg-dark w-100 p-3 display-4"><p class="text-info font-italic">Introduction</p></div>
+
+    <div class="jumbotron">
+      <h1 class="display-4">Greetings, User</h1>
+      <p class="lead">I am a simple gamer who wishes to become a gaming coder
+      that brings joy to others with the joy of games.</p>
+    </div>
+
+    <div class="navbar bg-dark">
+      <img src="code.jpg" class="img-thumbnail">
+    </div>
+    <br>
+    <div class="bg-dark w-100 p-3 display-4"><p class="text-info font-italic">Web Technology Projects</p></div>
+
+    <section class="row" style="background:lightgray">
+      <div class="co-md-3 offset-sm-1">
+        <abbr title="Project 2"><a href="#open2" class="secondproject"><img src="projectimg1.jpg.png" style="width:65%"></a></abbr>
+        <h4>710 Project 2</h4>
+        </div>
+        <div id="open2" class="model">
+          <h2>HTML Project: Online Shopping</h2>
+          <img src="intro_img2.jpg" width="100%" height="60%">
+          <br>
+          <p>Project 2 was my first shopping website build.
+          It consists of items from a beauty store and you were able to look at
+          all the different items and buy from them.</p>
+          <br>
+          <p>The main reason I chose this is that I would like to be a YouTuber
+          as a main goal, and if I'm able to code most my own websites it would
+          help save me so much money and also give me a chance to show off my skills
+          as a coder as well.</p>
+          <br>
+          <p class="text-primary">Visit My <a href=""><b>Store</b></a> Project</p>
+          <hr class="my-4">
+          <button class="btn btn-danger my-4 ml-4" type="button" name="button">Close</button>
+        </div>
+
+      <div class="co-md-3 offset-sm-1">
+        <abbr title="Project 1"><a href="#open" class="firstproject"><img src="projectimg2.jpg.png" style="width:30%"></a></abbr>
+        <h4>710 Project 1</h4>
+
+<div class="model" id="open">
+  <h2>HTML Project: Dreaming Places</h2>
+  <img src="northern2.jpeg" width="100%" height="60%">
+  <br>
+  <p>During this project we learned how to use img and rows when making this
+    project so I thought it would be good to show off what I was able to do
+    on here</p>
+  <br>
+  <p>I create a website about <b><i>Iceland</i></b> during my time in class.
+    I chose Iceland because it is a different place to USA especially for the
+    bolial lights. As a person enjoyed looking at all the different colors that
+    fly across the sky I thought making a site about would be nice.</p>
+  <br>
+  <p class="text-primary">Visit My <a href=""><b>Iceland</b></a> Project</p>
+  <hr class="my-4">
+  <button class="btn btn-danger my-4 ml-4" type="button" name="button">Close</button>
+  </div>
+</div>
+      </section>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="activite">
+          <h1>HTML</h1>
+          <p><b>Class Activities</b></p>
+          <p>At the beginning of the course I learned to create
+          structures using only HTML</p>
+          <hr>
+          <a href="#">HTML Actitivity 1: Table</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="activite">
+            <h1>CSS</h1>
+            <p><b>Class Activities</b></p>
+            <p>After we learned how to build a html
+            structure, we were later introduced CSS
+            and how to it to style elements</p>
+            <hr>
+            <a href="#">CSS Activity 1: Basic CSS Attributes</a>
+            <hr>
+            <a href="#">CSS Activity 2: Animation</a>
+            <hr>
+            <a href="#">CSS Activity 3: Images manipulation</a>
+            <hr>
+            <a href="#">CSS Activity 4: Modal Window</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="activite">
+            <h1>Boostrap 4</h1>
+            <p><b>Class Activites</b></p>
+            <p>After we understood and know how to
+            work with HTML and CSS, we started to
+            learn how to use classes in Bootstrap 4.
+            Bootstrap is the most popular HTML, CSS,
+            and JavaScript framework for developing
+            responsive, moblie-first website.</p>
+            <hr>
+            <a href="#">Boostrap Activity 1: Layout and
+              Cards</a>
+            <hr>
+            <a href="#">Boostrap Activity 2: Navigation Bars
+            and Information Window</a>
+            <hr>
+            <a href="#">Boostrap Activity 3: collapsible and Carousel</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-dark">
+        <div class="row" style="color:white; margin-left:10px; left:10%;">
+          <div class="col-sm-3">
+            <p>Phone Number</p>
+            <br>
+            <p>(718)-XXX-XXXX</p>
+          </div>
+          <div class="col-sm-3">
+            <p>EMAIL</p>
+            <br>
+            <p>georgeiib@qcc.cuny.edu</p>
+          </div>
+          <div class="col-sm-3">
+            <p>ADRESS</p>
+            <br>
+            <p>222-05, 56th Avenue Bayside, NY 11364</p>
+          </div>
+          <div class="col-sm-3">
+            <p>OFFICE</p>
+            <br>
+            <p>Technology Building</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>
